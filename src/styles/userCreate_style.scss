@@ -1,0 +1,99 @@
+.user-create {
+    padding: 30px 40px;
+    background-color: white;
+    border-radius: 20px;
+    max-width: 60vw;
+    width: 100%;
+
+    &_head {
+        display: flex;
+        border-bottom: 1px solid var(--secondary);
+        width: 100%;
+        padding-bottom: 10px;
+        justify-content: space-between;
+
+        h1 {
+            font-size: 15px;
+        }
+
+        button {
+            background-color: transparent;
+            cursor: pointer;
+
+            &:hover {
+                svg {
+                    stroke: var(--Purple);
+                }
+            }
+
+            border: none;
+
+        }
+    }
+
+
+    &_form {
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+        label {
+            width: 100%;
+            display: flex;
+        }
+
+        &_block {
+            gap: 10px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+
+
+            &-item {
+                width: 100%;
+                display: flex;
+                gap: 5px;
+                flex-direction: column;
+            }
+        }
+
+
+        .df {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            button {
+                background-color: transparent;
+                border: none;
+
+                cursor: pointer;
+
+
+
+                &:hover {
+                    svg:hover {
+                        stroke: var(--Purple);
+                    }
+                }
+
+                svg {
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+        }
+
+
+
+
+    }
+
+
+    .br-t {
+        // border-top: 1px solid var(--secondary);
+        padding-top: 15px;
+    }
+
+}

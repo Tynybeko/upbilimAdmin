@@ -1,0 +1,28 @@
+.registration_form {
+    border: 1px solid var(--secondary);
+    padding: 20px 40px;
+    border-radius: 10px;
+
+    background-color: white;
+
+
+    form {
+        color: black;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+
+        h1 {
+            font-size: 20px;
+            text-align: center;
+        }
+
+        .error {
+            color: red;
+            font-size: 10px;
+            text-align: center;
+        }
+
+    }
+}

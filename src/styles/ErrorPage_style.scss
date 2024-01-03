@@ -1,0 +1,25 @@
+.error-page {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &_block {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        padding: 20px;
+        border-radius: 20px;
+        flex-direction: column;
+        gap: 10px;
+        border: 1px solid var(--Purple);
+
+        img {
+            width: 40%;
+        }
+
+    }
+}

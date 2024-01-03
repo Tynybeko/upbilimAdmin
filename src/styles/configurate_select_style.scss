@@ -1,0 +1,55 @@
+.configurate_select {
+    position: absolute;
+    width: 150px;
+    text-align: center;
+    // top: 34px;
+    right: 10px;
+    z-index: 50;
+    border-radius: 20px;
+
+    ul {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid var(--secondary);
+        background-color: rgb(250, 250, 250);
+
+        li {
+            font-size: 14px;
+            cursor: pointer;
+            width: 100%;
+            display: flex;
+
+            svg {
+                width: 20px;
+                height: 20px;
+            }
+
+            justify-content: space-between;
+            padding: 5px 6px;
+            align-items: center;
+            list-style: none;
+            border-bottom: 1px solid black;
+            transition: all .2s ease-in-out;
+
+            &:nth-last-child(-n + 1) {
+                border-bottom: 0px;
+            }
+
+            &:hover {
+                background-color: rgba(185, 181, 181, 0.548);
+                color: white;
+            }
+
+        }
+
+
+        .red {
+            color: red;
+        }
+    }
+
+
+
+
+}
